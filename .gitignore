@@ -1,5 +1,0 @@
-# 忽略Obsidian本地配置目录
-.obsidian/
-# 可选：忽略Obsidian的其他临时文件
-*.log
-.DS_Store
