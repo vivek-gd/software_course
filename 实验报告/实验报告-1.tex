@@ -1,0 +1,210 @@
+%!TEX program = xelatex
+
+\documentclass[a4paper,12pt]{report}
+\usepackage{indentfirst} 
+%\usepackage{ctex}
+
+\usepackage{xeCJK}
+\usepackage{times}
+\usepackage{graphicx,float}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage{fontspec,xunicode,xltxtra}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage[titletoc]{appendix}
+\usepackage[top=30mm,bottom=30mm,left=20mm,right=20mm]{geometry}
+\usepackage{cite}
+\usepackage{listings}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\usepackage[UTF8]{ctex}
+
+        
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\usepackage[
+    %colorlinks = true, % 使链接为彩色而不是有边框
+    linkbordercolor = white % 将链接边框颜色设置为白色，使其不可见
+]{hyperref}
+
+% 页眉页脚设置
+\fancypagestyle{plain}{\pagestyle{fancy}}
+\pagestyle{fancy}
+\lhead{\kaishu 数据结构实验报告}
+\rhead{\kaishu 实验1}
+\cfoot{\thepage}
+
+% 章节标题设置
+\titleformat{\chapter}{\centering\zihao{-1}\heiti}{实验\chinese{chapter}}{1em}{}
+\titlespacing{\chapter}{0pt}{*0}{*6}
+
+% 代码样式配置
+% 配置 listings 宏包
+% listings配置
+\lstset{
+    language=C++,
+    basicstyle=\ttfamily\small\CJKfamily{simsun}, % 使用等宽字体，并指定中文字体为楷体（你可按需修改）
+    commentstyle=\color{green!50!black}, % 注释颜色
+    keywordstyle=\color{blue},        % 关键字颜色
+    stringstyle=\color{red},          % 字符串颜色
+    showstringspaces=false,           % 不显示字符串中的空格
+    breaklines=true,                  % 自动换行
+    frame=single,                     % 边框设置
+    numbers=left,                     % 显示行号
+    numberstyle=\tiny\color{gray},    % 行号样式
+    escapeinside=``,                  % 转义符号
+    literate={。}{{。}}1
+            {，}{{，}}1
+            % 可添加更多中文字符替换规则以确保中文显示正常
+}
+
+\setCJKfamilyfont{SimHei}{SimHei}[
+    BoldFont = SimHei Bold, % 假设系统中有SimHei Bold字体文件
+    ItalicFont = SimHei Italic, % 假设系统中有SimHei Italic字体文件
+    BoldItalicFont = SimHei BoldItalic % 假设系统中有SimHei BoldItalic字体文件
+]
+\setCJKfamilyfont{kai}{KaiTi} % 假设系统中楷体的字体名称为KaiTi，你可能需要根据实际情况调整
+\setlength{\headheight}{14.49998pt}
+\begin{document}
+
+% 封面
+\begin{titlepage}
+    \begin{center}
+        \includegraphics[width=1.0\textwidth]{figure/nankai.jpg}\\
+        \vspace{50mm}
+        \textbf{\zihao{1}\heiti{数据结构实验报告}}\\[1cm]
+        \textbf{\zihao{2}\heiti{(2024\textasciitilde2025学年第二学期)}}\\[1cm]
+        \vspace{\fill}
+        
+        \setlength{\extrarowheight}{2mm}
+        {\songti\zihao{3}	
+        \begin{tabular}{rl}
+            实验名称：& 表达式求值与路径简化\\
+            学\qquad 院：& 软件学院\\
+            姓\qquad 名：& 郭威威\\
+            学\qquad 号：& 2414308\\
+            指导老师：& 刘明铭\\
+        \end{tabular}
+        }\\[2cm]
+        \vspace{\fill}
+        \zihao{4}
+        2024\textasciitilde 2025春季学期\\
+        使用\LaTeX 撰写于 \today
+    \end{center}	
+\end{titlepage}
+
+% 目录
+\tableofcontents
+
+% 正文内容
+\begin{spacing}{1.5}
+\songti\zihao{-4}
+
+\chapter{表达式求值实验}
+\section{算法原理}
+\subsection{中缀转后缀算法}
+\begin{itemize}
+    \item 运算符优先级处理：使用栈临时存储运算符
+    \item 数字处理：连续数字和小数点识别
+    \item 错误检测：括号匹配检查和非法字符识别
+\end{itemize}
+
+\subsection{后缀表达式计算}
+\begin{itemize}
+    \item 操作数栈管理：支持浮点数运算
+    \item 异常处理：除零错误检测
+    \item 运算支持：六种运算符（+,-,*,/,\%,\textasciicircum）
+\end{itemize}
+
+\section{测试结果}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{6cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
+        \hline
+        \textbf{测试用例} & \textbf{预期输出} & \textbf{实际输出} \\
+        \hline
+        2.5+2\textasciicircum3/2\%3 & 3.50 & 3.50 \\
+        \hline
+        9+(3-1)*3+10/2 & 20.00 & 20.00 \\
+        \hline
+        5.2 * 5.8/3)+2 & ERROR & ERROR \\
+        \hline
+    \end{tabular}
+    \caption{表达式求值测试结果}
+\end{table}
+
+\chapter{路径简化实验}
+\section{算法实现}
+\subsection{核心逻辑}
+\begin{itemize}
+    \item 使用vector模拟栈结构
+    \item 路径分割：按'/'分割路径组件
+    \item 特殊符号处理：识别"."和".."
+\end{itemize}
+
+\section{测试案例}
+\begin{lstlisting}[language=bash]
+输入路径：/a//b////c/d//././/..
+输出结果：/a/b/c
+处理过程：
+1. 分割组件：["a", "b", "c", "d", ".", ".."]
+2. 栈操作：a->b->c（遇到..弹出d）
+\end{lstlisting}
+
+\chapter{实验分析}
+\section{关键数据结构}
+\subsection{栈模板类实现}
+\begin{lstlisting}[language=C++]
+template<typename T>
+class Stack {
+private:
+    T* data;        // 存储元素数组
+    int top;        // 栈顶指针
+    int capacity;   // 栈容量
+    
+public:
+    Stack(int size=10) {
+        capacity = size;
+        data = new T[capacity];
+        top = -1;
+    }
+    
+    void push(T val) {
+        if(top >= capacity-1) resize();
+        data[++top] = val;
+    }
+    
+    T pop() {
+        if(isEmpty()) throw "Stack Underflow";
+        return data[top--];
+    }
+};
+\end{lstlisting}
+
+\section{复杂度对比}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{算法} & \textbf{时间复杂度} & \textbf{空间复杂度} & \textbf{稳定性} \\
+        \hline
+        表达式求值 & O(n) & O(n) & 稳定 \\
+        路径简化 & O(n) & O(n) & 稳定 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\end{spacing}
+
+% 附录
+\appendix
+\chapter{完整源代码}
+
+\section{表达式求值程序}
+\lstinputlisting[language=C++]{code/ExpressionEval.cpp}
+
+\section{路径简化程序}
+\lstinputlisting[language=C++]{code/PathSimplifier.cpp}
+
+\end{document}

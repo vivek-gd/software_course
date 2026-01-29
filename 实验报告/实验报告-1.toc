@@ -1,0 +1,17 @@
+\contentsline {chapter}{\numberline {1}表达式求值实验}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}算法原理}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}中缀转后缀算法}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}后缀表达式计算}{2}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}测试结果}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}路径简化实验}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}算法实现}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}核心逻辑}{3}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}测试案例}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}实验分析}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}关键数据结构}{4}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}栈模板类实现}{4}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}复杂度对比}{5}{section.3.2}%
+\contentsline {chapter}{\numberline {A}完整源代码}{6}{appendix.A}%
+\contentsline {section}{\numberline {A.1}表达式求值程序}{6}{section.A.1}%
+\contentsline {section}{\numberline {A.2}路径简化程序}{10}{section.A.2}%
+\contentsfinish 
