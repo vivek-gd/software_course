@@ -1,0 +1,6 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+c语言程序设计课件/书/C++[[:space:]]Primer[[:space:]]第5版.pdf filter=lfs diff=lfs merge=lfs -text
+人工智能导论/人工智能导论第4版_B79EBB75BD449.pdf filter=lfs diff=lfs merge=lfs -text
+人工智能导论/工程伦理_B79EBB75BD449.pdf filter=lfs diff=lfs merge=lfs -text
+人工智能导论/知识图谱_B79EBB75BD449.pdf filter=lfs diff=lfs merge=lfs -text
+软件文化概论/安国之本[[:space:]]自强之基——国产数据库的发展现状、成果及趋势.pdf filter=lfs diff=lfs merge=lfs -text

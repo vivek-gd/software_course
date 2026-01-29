@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{einstein}
+A.~Einstein.
+\newblock {Zur Elektrodynamik bewegter K{\"o}rper}.
+\newblock {\em Annalen der Physik}, 322(10):891--921, 1905.
+
+\bibitem{knuthwebsite}
+D.~Knuth.
+\newblock Knuth: Computers and typesetting.
+
+\bibitem{GDLIII}
+M.~Thielscher.
+\newblock {GDL-III}: A description language for epistemic general game playing.
+\newblock In {\em Proceedings of the 26th International Joint Conference on
+  Artificial Intelligence ({IJCAI'17})}, pages 1276--1282, 2017.
+
+\end{thebibliography}
