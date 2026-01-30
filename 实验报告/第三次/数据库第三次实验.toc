@@ -1,0 +1,27 @@
+\contentsline {chapter}{\numberline {1}实验目的}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}实验环境}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}操作系统}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}软件版本}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}实验步骤}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Python数据库连接}{4}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}初始连接问题}{4}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}正确连接配置}{5}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}数据库表设计（DDL）}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}创建基础表}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}添加外键约束}{9}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}数据完整性管理}{9}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}删除}{11}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}数据操作（DML）}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}数据导入}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}数据检索}{13}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}数据更新}{13}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}数据删除}{14}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}实验结果}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}数据库操作验证}{16}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}表结构验证}{16}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}数据完整性验证}{16}{subsection.4.1.2}%
+\contentsline {chapter}{\numberline {5}实验总结}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}技术收获}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}典型问题处理}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}实验启示}{18}{section.5.3}%
+\contentsfinish 

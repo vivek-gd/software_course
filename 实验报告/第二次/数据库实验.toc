@@ -1,0 +1,22 @@
+\contentsline {chapter}{\numberline {1}实验目的}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}实验环境}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}操作系统}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}软件版本}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}实验步骤}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Python环境配置}{4}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}安装PyMySQL库}{4}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}测试数据库连接}{4}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}MySQL用户管理}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}创建新用户}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}权限验证}{5}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}数据库操作}{5}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}创建数据库}{5}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}导入数据模板}{5}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}复杂查询操作}{6}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}查询示例一}{6}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}查询示例二}{6}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}实验结果}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}用户管理结果}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}数据操作结果}{8}{section.4.2}%
+\contentsline {chapter}{\numberline {5}实验总结}{18}{chapter.5}%
+\contentsfinish 

@@ -1,0 +1,101 @@
+
+<!--
+封装类型: LFBGA144
+
+尺寸: 10mm × 10mm
+
+球阵列: 144 balls, 0.8mm pitch
+
+视图: 顶视图和底视图
+
+关键坐标: A1 Ball 角标, 网格坐标 (A1~M12)
+
+
+
+ -->
+<?xml version="1.0" encoding="UTF-8"?>
+<LFBGA144_Package>
+    <General>
+        <PackageType>LFBGA144</PackageType>
+        <Description>144-ball low profile fine pitch ball grid array</Description>
+        <Dimensions>
+            <Width>10.0</Width> <!-- mm -->
+            <Height>10.0</Height> <!-- mm -->
+            <Pitch>0.8</Pitch> <!-- mm -->
+        </Dimensions>
+        <Views>
+            <View type="Top">
+                <Outline>
+                    <CornerA x="0" y="0"/>
+                    <CornerB x="10.0" y="0"/>
+                    <CornerC x="10.0" y="10.0"/>
+                    <CornerD x="0" y="10.0"/>
+                </Outline>
+                <Markings>
+                    <Mark type="ReferenceCorner" x="1.0" y="1.0"/>
+                </Markings>
+            </View>
+            <View type="Bottom">
+                <Grid>
+                    <Rows>12</Rows>
+                    <Columns>12</Columns>
+                    <BallPitch>0.8</BallPitch> <!-- mm -->
+                    <BallDiameter>0.45</BallDiameter> <!-- mm -->
+                    <Balls>
+                        <!-- Example Ball Positions -->
+                        <Ball id="A1" x="0.4" y="0.4"/>
+                        <Ball id="A2" x="1.2" y="0.4"/>
+                        <Ball id="B1" x="0.4" y="1.2"/>
+                        <!-- Repeat for all 144 balls -->
+                    </Balls>
+                </Grid>
+                <Reference>
+                    <A1BallCorner x="0.4" y="0.4"/>
+                </Reference>
+            </View>
+        </Views>
+    </General>
+    <Thickness>
+        <Value>0.8</Value> <!-- mm -->
+    </Thickness>
+</LFBGA144_Package>
+<!--
+XML 结构解析
+General:
+
+PackageType: LFBGA144
+
+Description: 144-ball BGA 封装
+
+Dimensions: 10mm x 10mm，球间距 0.8mm
+
+Views:
+
+Top 视图:
+
+轮廓 Outline (四个角坐标)
+
+标记 Markings (参考角)
+
+Bottom 视图:
+
+球阵列 Grid
+
+参考 A1BallCorner (关键标识点)
+
+Thickness:
+
+0.8mm (封装厚度)
+
+如何使用 XML 复原原图？
+解析 Outline 节点，绘制 10mm x 10mm 轮廓。
+
+解析 Ball 坐标数据，按照 BallPitch 排列 144 颗球。
+
+参考 A1BallCorner 标记球阵列起点，调整对齐方式。
+
+根据 Thickness 渲染 3D 结构。
+
+
+
+ -->

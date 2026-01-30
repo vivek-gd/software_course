@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stm32f103xc_lqfp144_pinout>
+    <side name="左边垂直边">
+        <pin>
+            <number>1</number>
+            <name>PE2</name>
+            <coordinate>(-W, H-1s)</coordinate>
+        </pin>
+        <pin>
+            <number>2</number>
+            <name>PE3</name>
+            <coordinate>(-W, H-2s)</coordinate>
+        </pin>
+        <pin>
+            <number>3</number>
+            <name>PE4</name>
+            <coordinate>(-W, H-3s)</coordinate>
+        </pin>
+        <pin>
+            <number>4</number>
+            <name>PE5</name>
+            <coordinate>(-W, H-4s)</coordinate>
+        </pin>
+        <pin>
+            <number>5</number>
+            <name>PE6</name>
+            <coordinate>(-W, H-5s)</coordinate>
+        </pin>
+        <pin>
+            <number>6</number>
+            <name>VBAT</name>
+            <coordinate>(-W, H-6s)</coordinate>
+        </pin>
+        <pin>
+            <number>7</number>
+            <name>PC13-TAMPER-RTC</name>
+            <coordinate>(-W, H-7s)</coordinate>
+        </pin>
+        <pin>
+            <number>8</number>
+            <name>PC14-OSC32_IN</name>
+            <coordinate>(-W, H-8s)</coordinate>
+        </pin>
+        <pin>
+            <number>9</number>
+            <name>PC15-OSC32_OUT</name>
+            <coordinate>(-W, H-9s)</coordinate>
+        </pin>
+        <pin>
+            <number>10</number>
+            <name>PD0</name>
+            <coordinate>(-W, H-10s)</coordinate>
+        </pin>
+        <pin>
+            <number>11</number>
+            <name>PF1</name>
+            <coordinate>(-W, H-11s)</coordinate>
+        </pin>
+        <pin>
+            <number>12</number>
+            <name>PF2</name>
+            <coordinate>(-W, H-12s)</coordinate>
+        </pin>
+        <pin>
+            <number>13</number>
+            <name>PF3</name>
+            <coordinate>(-W, H-13s)</coordinate>
+        </pin>
+        <pin>
+            <number>14</number>
+            <name>PF4</name>
+            <coordinate>(-W, H-14s)</coordinate>
+        </pin>
+        <pin>
+            <number>15</number>
+            <name>VSS_5</name>
+            <coordinate>(-W, H-15s)</coordinate>
+        </pin>
+        <pin>
+            <number>16</number>
+            <name>VDD_5</name>
+            <coordinate>(-W, H-16s)</coordinate>
+        </pin>
+        <pin>
+            <number>17</number>
+            <name>PF5</name>
+            <coordinate>(-W, H-17s)</coordinate>
+        </pin>
+        <pin>
+            <number>18</number>
+            <name>PF6</name>
+            <coordinate>(-W, H-18s)</coordinate>
+        </pin>
+        <pin>
+            <number>19</number>
+            <name>PF7</name>
+            <coordinate>(-W, H-19s)</coordinate>
+        </pin>
+        <pin>
+            <number>20</number>
+            <name>PF8</name>
+            <coordinate>(-W, H-20s)</coordinate>
+        </pin>
+        <pin>
+            <number>21</number>
+            <name>PF9</name>
+            <coordinate>(-W, H-21s)</coordinate>
+        </pin>
+        <pin>
+            <number>22</number>
+            <name>PF10</name>
+            <coordinate>(-W, H-22s)</coordinate>
+        </pin>
+        <pin>
+            <number>23</number>
+            <name>OSC_IN</name>
+            <coordinate>(-W, H-23s)</coordinate>
+        </pin>
+        <pin>
+            <number>24</number>
+            <name>OSC_OUT</name>
+            <coordinate>(-W, H-24s)</coordinate>
+        </pin>
+        <pin>
+            <number>25</number>
+            <name>NRST</name>
+            <coordinate>(-W, H-25s)</coordinate>
+        </pin>
+        <pin>
+            <number>26</number>
+            <name>PC0</name>
+            <coordinate>(-W, H-26s)</coordinate>
+        </pin>
+        <pin>
+            <number>27</number>
+            <name>PC1</name>
+            <coordinate>(-W, H-27s)</coordinate>
+        </pin>
+        <pin>
+            <number>28</number>
+            <name>PC2</name>
+            <coordinate>(-W, H-28s)</coordinate>
+        </pin>
+        <pin>
+            <number>29</number>
+            <name>PC3</name>
+            <coordinate>(-W, H-29s)</coordinate>
+        </pin>
+        <pin>
+            <number>30</number>
+            <name>VSS_A</name>
+            <coordinate>(-W, H-30s)</coordinate>
+        </pin>
+        <pin>
+            <number>31</number>
+            <name>VREF+</name>
+            <coordinate>(-W, H-31s)</coordinate>
+        </pin>
+        <pin>
+            <number>32</number>
+            <name>VDDA</name>
+            <coordinate>(-W, H-32s)</coordinate>
+        </pin>
+        <pin>
+            <number>33</number>
+            <name>PA0-WKUP</name>
+            <coordinate>(-W, H-33s)</coordinate>
+        </pin>
+        <pin>
+            <number>34</number>
+            <name>PA1</name>
+            <coordinate>(-W, H-34s)</coordinate>
+        </pin>
+        <pin>
+            <number>35</number>
+            <name>PA2</name>
+            <coordinate>(-W, H-35s)</coordinate>
+        </pin>
+    </side>
+    <side name="下边水平边">
+        <pin>
+            <number>37</number>
+            <name>PA3</name>
+            <coordinate>(-W+1s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>38</number>
+            <name>PA4</name>
+            <coordinate>(-W+2s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>39</number>
+            <name>PA5</name>
+            <coordinate>(-W+3s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>40</number>
+            <name>PA6</name>
+            <coordinate>(-W+4s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>41</number>
+            <name>PA7</name>
+            <coordinate>(-W+5s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>42</number>
+            <name>PC4</name>
+            <coordinate>(-W+6s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>43</number>
+            <name>PC5</name>
+            <coordinate>(-W+7s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>44</number>
+            <name>PF11</name>
+            <coordinate>(-W+8s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>45</number>
+            <name>PF12</name>
+            <coordinate>(-W+9s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>46</number>
+            <name>PF13</name>
+            <coordinate>(-W+10s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>47</number>
+            <name>PF14</name>
+            <coordinate>(-W+11s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>48</number>
+            <name>PF15</name>
+            <coordinate>(-W+12s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>49</number>
+            <name>PG0</name>
+            <coordinate>(-W+13s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>50</number>
+            <name>PG1</name>
+            <coordinate>(-W+14s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>51</number>
+            <name>PE8</name>
+            <coordinate>(-W+15s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>52</number>
+            <name>PE9</name>
+            <coordinate>(-W+16s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>53</number>
+            <name>PE10</name>
+            <coordinate>(-W+17s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>54</number>
+            <name>PE11</name>
+            <coordinate>(-W+18s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>55</number>
+            <name>PE12</name>
+            <coordinate>(-W+19s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>56</number>
+            <name>PE13</name>
+            <coordinate>(-W+20s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>57</number>
+            <name>PE14</name>
+            <coordinate>(-W+21s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>58</number>
+            <name>PE15</name>
+            <coordinate>(-W+22s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>59</number>
+            <name>PG4</name>
+            <coordinate>(-W+23s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>60</number>
+            <name>PG5</name>
+            <coordinate>(-W+24s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>61</number>
+            <name>VSS_7</name>
+            <coordinate>(-W+25s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>62</number>
+            <name>VDD_7</name>
+            <coordinate>(-W+26s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>63</number>
+            <name>PG6</name>
+            <coordinate>(-W+27s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>64</number>
+            <name>PG7</name>
+            <coordinate>(-W+28s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>65</number>
+            <name>PG8</name>
+            <coordinate>(-W+29s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>66</number>
+            <name>PG9</name>
+            <coordinate>(-W+30s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>67</number>
+            <name>PG10</name>
+            <coordinate>(-W+31s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>68</number>
+            <name>PG11</name>
+            <coordinate>(-W+32s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>69</number>
+            <name>PG12</name>
+            <coordinate>(-W+33s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>70</number>
+            <name>PG13</name>
+            <coordinate>(-W+34s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>71</number>
+            <name>PG14</name>
+            <coordinate>(-W+35s, -H)</coordinate>
+        </pin>
+        <pin>
+            <number>72</number>
+            <name>PG15</name>
+            <coordinate>(W-1s, -H)</coordinate>
+        </pin>
+    </side>
+    <side name="右边垂直边">
+        <pin>
+            <number>73</number>
+            <name>PB12</name>
+            <coordinate>(W, -H+1s)</coordinate>
+        </pin>
+        <pin>
+            <number>74</number>
+            <name>PB13</name>
+            <coordinate>(W, -H+2s)</coordinate>
+        </pin>
+        <pin>
+            <number>75</number>
+            <name>PB14</name>
+            <coordinate>(W, -H+3s)</coordinate>
+        </pin>
+        <pin>
+            <number>76</number>
+            <name>PB15</name>
+            <coordinate>(W, -H+4s)</coordinate>
+        </pin>
+        <pin>
+            <number>77</number>
+            <name>PB8</name>
+            <coordinate>(W, -H+5s)</coordinate>
+        </pin>
+        <pin>
+            <number>78</number>
+            <name>PB9</name>
+            <coordinate>(W, -H+6s)</coordinate>
+        </pin>
+        <pin>
+            <number>79</number>
+            <name>PD10</name>
+            <coordinate>(W, -H+7s)</coordinate>
+        </pin>
+        <pin>
+            <number>80</number>
+            <name>PD11</name>
+            <coordinate>(W, -H+8s)</coordinate>
+        </pin>
+        <pin>
+            <number>81</number>
+            <name>PD12</name>
+            <coordinate>(W, -H+9s)</coordinate>
+        </pin>
+        <pin>
+            <number>82</number>
+            <name>PD13</name>
+            <coordinate>(W, -H+10s)</coordinate>
+        </pin>
+        <pin>
+            <number>83</number>
+            <name>PD14</name>
+            <coordinate>(W, -H+11s)</coordinate>
+        </pin>
+        <pin>
+            <number>84</number>
+            <name>VDD_8</name>
+            <coordinate>(W, -H+12s)</coordinate>
+        </pin>
+        <pin>
+            <number>85</number>
+            <name>PD15</name>
+            <coordinate>(W, -H+13s)</coordinate>
+        </pin>
+        <pin>
+            <number>86</number>
+            <name>PG2</name>
+            <coordinate>(W, -H+14s)</coordinate>
+        </pin>
+        <pin>
+            <number>87</number>
+            <name>PG3</name>
+            <coordinate>(W, -H+15s)</coordinate>
+        </pin>
+        <pin>
+            <number>88</number>
+            <name>PD4</name>
+            <coordinate>(W, -H+16s)</coordinate>
+        </pin>
+        <pin>
+            <number>89</number>
+            <name>PG4</name>
+            <coordinate>(W, -H+17s)</coordinate>
+        </pin>
+        <pin>
+            <number>90</number>
+            <name>PD6</name>
+            <coordinate>(W, -H+18s)</coordinate>
+        </pin>
+        <pin>
+            <number>91</number>
+            <name>PG6</name>
+            <coordinate>(W, -H+19s)</coordinate>
+        </pin>
+        <pin>
+            <number>92</number>
+            <name>PD8</name>
+            <coordinate>(W, -H+20s)</coordinate>
+        </pin>
+        <pin>
+            <number>93</number>
+            <name>PG8</name>
+            <coordinate>(W, -H+21s)</coordinate>
+        </pin>
+        <pin>
+            <number>94</number>
+            <name>VDD_9</name>
+            <coordinate>(W, -H+22s)</coordinate>
+        </pin>
+        <pin>
+            <number>95</number>
+            <name>VSS_9</name>
+            <coordinate>(W, -H+23s)</coordinate>
+        </pin>
+        <pin>
+            <number>96</number>
+            <name>PD9</name>
+            <coordinate>(W, -H+24s)</coordinate>
+        </pin>
+        <pin>
+            <number>97</number>
+            <name>PC7</name>
+            <coordinate>(W, -H+25s)</coordinate>
+        </pin>
+        <pin>
+            <number>98</number>
+            <name>PC6</name>
+            <coordinate>(W, -H+26s)</coordinate>
+        </pin>
+        <pin>
+            <number>99</number>
+            <name>PA8</name>
+            <coordinate>(W, -H+27s)</coordinate>
+        </pin>
+        <pin>
+            <number>100</number>
+            <name>PA9</name>
+            <coordinate>(W, -H+28s)</coordinate>
+        </pin>
+        <pin>
+            <number>101</number>
+            <name>PA10</name>
+            <coordinate>(W, -H+29s)</coordinate>
+        </pin>
+        <pin>
+            <number>102</number>
+            <name>PA11</name>
+            <coordinate>(W, -H+30s)</coordinate>
+        </pin>
+        <pin>
+            <number>103</number>
+            <name>PA12</name>
+            <coordinate>(W, -H+31s)</coordinate>
+        </pin>
+        <pin>
+            <number>104</number>
+            <name>PA13</name>
+            <coordinate>(W, -H+32s)</coordinate>
+        </pin>
+        <pin>
+            <number>105</number>
+            <name>PA14</name>
+            <coordinate>(W, -H+33s)</coordinate>
+        </pin>
+        <pin>
+            <number>106</number>
+            <name>PA15</name>
+            <coordinate>(W, -H+34s)</coordinate>
+        </pin>
+        <pin>
+            <number>107</number>
+            <name>VSS_2</name>
+            <coordinate>(W, -H+35s)</coordinate>
+        </pin>
+        <pin>
+            <number>108</number>
+            <name>VDD_2</name>
+            <coordinate>(W, H-1s)</coordinate>
+        </pin>
+    </side>
+    <side name="上边水平边">
+        <pin>
+            <number>109</number>
+            <name>PC10</name>
+            <coordinate>(W-1s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>110</number>
+            <name>PC11</name>
+            <coordinate>(W-2s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>111</number>
+            <name>PC12</name>
+            <coordinate>(W-3s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>112</number>
+            <name>PD2</name>
+            <coordinate>(W-4s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>113</number>
+            <name>PD3</name>
+            <coordinate>(W-5s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>114</number>
+            <name>PD5</name>
+            <coordinate>(W-6s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>115</number>
+            <name>PD7</name>
+            <coordinate>(W-7s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>116</number>
+            <name>PD1</name>
+            <coordinate>(W-8s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>117</number>
+            <name>PD0</name>
+            <coordinate>(W-9s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>118</number>
+            <name>VDD_10</name>
+            <coordinate>(W-10s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>119</number>
+            <name>PB0</name>
+            <coordinate>(W-11s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>120</number>
+            <name>PB1</name>
+            <coordinate>(W-12s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>121</number>
+            <name>PB10</name>
+            <coordinate>(W-13s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>122</number>
+            <name>PB11</name>
+            <coordinate>(W-14s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>123</number>
+            <name>PB2</name>
+            <coordinate>(W-15s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>124</number>
+            <name>PB6</name>
+            <coordinate>(W-16s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>125</number>
+            <name>PB7</name>
+            <coordinate>(W-17s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>126</number>
+            <name>PE0</name>
+            <coordinate>(W-18s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>127</number>
+            <name>PE1</name>
+            <coordinate>(W-19s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>128</number>
+            <name>VSS_4</name>
+            <coordinate>(W-20s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>129</number>
+            <name>VDD_4</name>
+            <coordinate>(W-21s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>130</number>
+            <name>PE5</name>
+            <coordinate>(W-22s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>131</number>
+            <name>PE6</name>
+            <coordinate>(W-23s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>132</number>
+            <name>PE7</name>
+            <coordinate>(W-24s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>133</number>
+            <name>VSS_3</name>
+            <coordinate>(W-25s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>134</number>
+            <name>VDD_3</name>
+            <coordinate>(W-26s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>135</number>
+            <name>PE16</name>
+            <coordinate>(W-27s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>136</number>
+            <name>PB8</name>
+            <coordinate>(W-28s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>137</number>
+            <name>PB9</name>
+            <coordinate>(W-29s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>138</number>
+            <name>PB15</name>
+            <coordinate>(W-30s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>139</number>
+            <name>PB4</name>
+            <coordinate>(W-31s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>140</number>
+            <name>PB5</name>
+            <coordinate>(W-32s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>141</number>
+            <name>PB3</name>
+            <coordinate>(W-33s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>142</number>
+            <name>PB1</name>
+            <coordinate>(W-34s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>143</number>
+            <name>PB0</name>
+            <coordinate>(W-35s, H)</coordinate>
+        </pin>
+        <pin>
+            <number>144</number>
+            <name>VDD_3</name>
+            <coordinate>(-W+1s, H)</coordinate>
+        </pin>
+    </side>
+</stm32f103xc_lqfp144_pinout>

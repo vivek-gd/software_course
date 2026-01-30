@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stm32f103xc_lqfp144_pinout>
+    <!-- 几何参数 -->
+    <parameters>
+        <width>2W</width>
+        <height>2H</height>
+        <pitch>s</pitch>
+        <corner_offset>o</corner_offset>
+    </parameters>
+
+    <!-- 左边垂直边（引脚1 - 35） -->
+    <side name="left_vertical">
+        <direction>down</direction>
+        <start>(-W, H)</start>
+        <end>(-W, -H + o)</end>
+        <pins>
+            <pin number="1" name="PE2" coordinate="(-W, H - 1*s)"/>
+            <pin number="2" name="PE3" coordinate="(-W, H - 2*s)"/>
+            <pin number="3" name="PE4" coordinate="(-W, H - 3*s)"/>
+            <pin number="4" name="PE5" coordinate="(-W, H - 4*s)"/>
+            <pin number="5" name="PE6" coordinate="(-W, H - 5*s)"/>
+            <pin number="6" name="VBAT" coordinate="(-W, H - 6*s)"/>
+            <pin number="7" name="PC13-TAMPER-RTC" coordinate="(-W, H - 7*s)"/>
+            <pin number="8" name="PC14-OSC32_IN" coordinate="(-W, H - 8*s)"/>
+            <pin number="9" name="PC15-OSC32_OUT" coordinate="(-W, H - 9*s)"/>
+            <pin number="10" name="PD0" coordinate="(-W, H - 10*s)"/>
+            <pin number="11" name="PF1" coordinate="(-W, H - 11*s)"/>
+            <pin number="12" name="PF2" coordinate="(-W, H - 12*s)"/>
+            <pin number="13" name="PF3" coordinate="(-W, H - 13*s)"/>
+            <pin number="14" name="PF4" coordinate="(-W, H - 14*s)"/>
+            <pin number="15" name="VSS_5" coordinate="(-W, H - 15*s)"/>
+            <pin number="16" name="VDD_5" coordinate="(-W, H - 16*s)"/>
+            <pin number="17" name="PF5" coordinate="(-W, H - 17*s)"/>
+            <pin number="18" name="PF6" coordinate="(-W, H - 18*s)"/>
+            <pin number="19" name="PF7" coordinate="(-W, H - 19*s)"/>
+            <pin number="20" name="PF8" coordinate="(-W, H - 20*s)"/>
+            <pin number="21" name="PF9" coordinate="(-W, H - 21*s)"/>
+            <pin number="22" name="PF10" coordinate="(-W, H - 22*s)"/>
+            <pin number="23" name="OSC_IN" coordinate="(-W, H - 23*s)"/>
+            <pin number="24" name="OSC_OUT" coordinate="(-W, H - 24*s)"/>
+            <pin number="25" name="NRST" coordinate="(-W, H - 25*s)"/>
+            <pin number="26" name="PC0" coordinate="(-W, H - 26*s)"/>
+            <pin number="27" name="PC1" coordinate="(-W, H - 27*s)"/>
+            <pin number="28" name="PC2" coordinate="(-W, H - 28*s)"/>
+            <pin number="29" name="PC3" coordinate="(-W, H - 29*s)"/>
+            <pin number="30" name="VSS_A" coordinate="(-W, H - 30*s)"/>
+            <pin number="31" name="VREF+" coordinate="(-W, H - 31*s)"/>
+            <pin number="32" name="VDDA" coordinate="(-W, H - 32*s)"/>
+            <pin number="33" name="PA0-WKUP" coordinate="(-W, H - 33*s)"/>
+            <pin number="34" name="PA1" coordinate="(-W, H - 34*s)"/>
+            <pin number="35" name="PA2" coordinate="(-W, -H + o + 1*s)"/>
+        </pins>
+    </side>
+
+    <!-- 左下拐角边（引脚36） -->
+    <side name="bottom_left_corner">
+        <direction>right</direction>
+        <start>(-W, -H + o)</start>
+        <end>(-W + o, -H)</end>
+        <pins>
+            <pin number="36" name="PA2" coordinate="(-W + o, -H + o)"/>
+        </pins>
+    </side>
+
+    <!-- 下边水平边（引脚37 - 71） -->
+    <side name="bottom_horizontal">
+        <direction>right</direction>
+        <start>(-W + o, -H)</start>
+        <end>(W - o, -H)</end>
+        <pins>
+            <pin number="37" name="PA3" coordinate="(-W + o + 1*s, -H)"/>
+            <pin number="38" name="PA4" coordinate="(-W + o + 2*s, -H)"/>
+            <pin number="39" name="PA5" coordinate="(-W + o + 3*s, -H)"/>
+            <pin number="40" name="PA6" coordinate="(-W + o + 4*s, -H)"/>
+            <pin number="41" name="PA7" coordinate="(-W + o + 5*s, -H)"/>
+            <pin number="42" name="PC4" coordinate="(-W + o + 6*s, -H)"/>
+            <pin number="43" name="PC5" coordinate="(-W + o + 7*s, -H)"/>
+            <pin number="44" name="PF11" coordinate="(-W + o + 8*s, -H)"/>
+            <pin number="45" name="PF12" coordinate="(-W + o + 9*s, -H)"/>
+            <pin number="46" name="PF13" coordinate="(-W + o + 10*s, -H)"/>
+            <pin number="47" name="PF14" coordinate="(-W + o + 11*s, -H)"/>
+            <pin number="48" name="PF15" coordinate="(-W + o + 12*s, -H)"/>
+            <pin number="49" name="PG0" coordinate="(-W + o + 13*s, -H)"/>
+            <pin number="50" name="PG1" coordinate="(-W + o + 14*s, -H)"/>
+            <pin number="51" name="PE8" coordinate="(-W + o + 15*s, -H)"/>
+            <pin number="52" name="PE9" coordinate="(-W + o + 16*s, -H)"/>
+            <pin number="53" name="PE10" coordinate="(-W + o + 17*s, -H)"/>
+            <pin number="54" name="PE11" coordinate="(-W + o + 18*s, -H)"/>
+            <pin number="55" name="PE12" coordinate="(-W + o + 19*s, -H)"/>
+            <pin number="56" name="PE13" coordinate="(-W + o + 20*s, -H)"/>
+            <pin number="57" name="PE14" coordinate="(-W + o + 21*s, -H)"/>
+            <pin number="58" name="PE15" coordinate="(-W + o + 22*s, -H)"/>
+            <pin number="59" name="PG4" coordinate="(-W + o + 23*s, -H)"/>
+            <pin number="60" name="PG5" coordinate="(-W + o + 24*s, -H)"/>
+            <pin number="61" name="VSS_7" coordinate="(-W + o + 25*s, -H)"/>
+            <pin number="62" name="VDD_7" coordinate="(-W + o + 26*s, -H)"/>
+            <pin number="63" name="PG6" coordinate="(-W + o + 27*s, -H)"/>
+            <pin number="64" name="PG7" coordinate="(-W + o + 28*s, -H)"/>
+            <pin number="65" name="PG8" coordinate="(-W + o + 29*s, -H)"/>
+            <pin number="66" name="PG9" coordinate="(-W + o + 30*s, -H)"/>
+            <pin number="67" name="PG10" coordinate="(-W + o + 31*s, -H)"/>
+            <pin number="68" name="PG11" coordinate="(-W + o + 32*s, -H)"/>
+            <pin number="69" name="PG12" coordinate="(-W + o + 33*s, -H)"/>
+            <pin number="70" name="PG13" coordinate="(-W + o + 34*s, -H)"/>
+            <pin number="71" name="PG14" coordinate="(W - o - 1*s, -H)"/>
+        </pins>
+    </side>
+
+    <!-- 右下拐角边（引脚72） -->
+    <side name="bottom_right_corner">
+        <direction>up</direction>
+        <start>(W - o, -H)</start>
+        <end>(W, -H + o)</end>
+        <pins>
+            <pin number="72" name="PG15" coordinate="(W - o, -H + o)"/>
+        </pins>
+    </side>
+
+    <!-- 右边垂直边（引脚73 - 107） -->
+    <side name="right_vertical">
+        <direction>up</direction>
+        <start>(W, -H + o)</start>
+        <end>(W, H - o)</end>
+        <pins>
+            <pin number="73" name="PB12" coordinate="(W, -H + o + 1*s)"/>
+            <pin number="74" name="PB13" coordinate="(W, -H + o + 2*s)"/>
+            <pin number="75" name="PB14" coordinate="(W, -H + o + 3*s)"/>
+            <pin number="76" name="PB15" coordinate="(W, -H + o + 4*s)"/>
+            <pin number="77" name="PB8" coordinate="(W, -H + o + 5*s)"/>
+            <pin number="78" name="PB9" coordinate="(W, -H + o + 6*s)"/>
+            <pin number="79" name="PD10" coordinate="(W, -H + o + 7*s)"/>
+            <pin number="80" name="PD11" coordinate="(W, -H + o + 8*s)"/>
+            <pin number="81" name="PD12" coordinate="(W, -H + o + 9*s)"/>
+            <pin number="82" name="PD13" coordinate="(W, -H + o + 10*s)"/>
+            <pin number="83" name="PD14" coordinate="(W, -H + o + 11*s)"/>
+            <pin number="84" name="VDD_8" coordinate="(W, -H + o + 12*s)"/>
+            <pin number="85" name="PD15" coordinate="(W, -H + o + 13*s)"/>
+            <pin number="86" name="PG2" coordinate="(W, -H + o + 14*s)"/>
+            <pin number="87" name="PG3" coordinate="(W, -H + o + 15*s)"/>
+            <pin number="88" name="PD4" coordinate="(W, -H + o + 16*s)"/>
+            <pin number="89" name="PG4" coordinate="(W, -H + o + 17*s)"/>
+            <pin number="90" name="PD6" coordinate="(W, -H + o + 18*s)"/>
+            <pin number="91" name="PG6" coordinate="(W, -H + o + 19*s)"/>
+            <pin number="92" name="PD8" coordinate="(W, -H + o + 20*s)"/>
+            <pin number="93" name="PG8" coordinate="(W, -H + o + 21*s)"/>
+            <pin number="94" name="VDD_9" coordinate="(W, -H + o + 22*s)"/>
+            <pin number="95" name="VSS_9" coordinate="(W, -H + o + 23*s)"/>
+            <pin number="96" name="PD9" coordinate="(W, -H + o + 24*s)"/>
+            <pin number="97" name="PC7" coordinate="(W, -H + o + 25*s)"/>
+            <pin number="98" name="PC6" coordinate="(W, -H + o + 26*s)"/>
+            <pin number="99" name="PA8" coordinate="(W, -H + o + 27*s)"/>
+            <pin number="100" name="PA9" coordinate="(W, -H + o + 28*s)"/>
+            <pin number="101" name="PA10" coordinate="(W, -H + o + 29*s)"/>
+            <pin number="102" name="PA11" coordinate="(W, -H + o + 30*s)"/>
+            <pin number="103" name="PA12" coordinate="(W, -H + o + 31*s)"/>
+            <pin number="104" name="PA13" coordinate="(W, -H + o + 32*s)"/>
+            <pin number="105" name="PA14" coordinate="(W, -H + o + 33*s)"/>
+            <pin number="106" name="PA15" coordinate="(W, -H + o + 34*s)"/>
+            <pin number="107" name="VSS_2" coordinate="(W, H - o - 1*s)"/>
+        </pins>
+    </side>
+
+    <!-- 右上拐角边（引脚108） -->
+    <side name="top_right_corner">
+        <direction>left</direction>
+        <start>(W, H - o)</start>
+        <end>(W - o, H)</end>
+        <pins>
+            <pin number="108" name="VDD_2" coordinate="(W - o, H - o)"/>
+        </pins>
+    </side>
+
+    <!-- 上边水平边（引脚109 - 143） -->
+    <side name="top_horizontal">
+        <direction>left</direction>
+        <start>(W - o, H)</start>
+        <end>(-W + o, H)</end>
+        <pins>
+            <pin number="109" name="PC10" coordinate="(W - o - 1*s, H)"/>
+            <pin number="110" name="PC11" coordinate="(W - o - 2*s, H)"/>
+            <pin number="111" name="PC12" coordinate="(W - o - 3*s, H)"/>
+            <pin number="112" name="PD2" coordinate="(W - o - 4*s, H)"/>
+            <pin number="113" name="PD3" coordinate="(W - o - 5*s, H)"/>
+            <pin number="114" name="PD5" coordinate="(W - o - 6*s, H)"/>
+            <pin number="115" name="PD7" coordinate="(W - o - 7*s, H)"/>
+            <pin number="116" name="PD1" coordinate="(W - o - 8*s, H)"/>
+            <pin number="117" name="PD0" coordinate="(W - o - 9*s, H)"/>
+            <pin number="118" name="VDD_10" coordinate="(W - o - 10*s, H)"/>
+            <pin number="119" name="PB0" coordinate="(W - o - 11*s, H)"/>
+            <pin number="120" name="PB1" coordinate="(W - o - 12*s, H)"/>
+            <pin number="121" name="PB10" coordinate="(W - o - 13*s, H)"/>
+            <pin number="122" name="PB11" coordinate="(W - o - 14*s, H)"/>
+            <pin number="123" name="PB2" coordinate="(W - o - 15*s, H)"/>
+            <pin number="124" name="PB6" coordinate="(W - o - 16*s, H)"/>
+            <pin number="125" name="PB7" coordinate="(W - o - 17*s, H)"/>
+            <pin number="126" name="PE0" coordinate="(W - o - 18*s, H)"/>
+            <pin number="127" name="PE1" coordinate="(W - o - 19*s, H)"/>
+            <pin number="128" name="VSS_4" coordinate="(W - o - 20*s, H)"/>
+            <pin number="129" name="VDD_4" coordinate="(W - o - 21*s, H)"/>
+            <pin number="130" name="PE5" coordinate="(W - o - 22*s, H)"/>
+            <pin number="131" name="PE6" coordinate="(W - o - 23*s, H)"/>
+            <pin number="132" name="PE7" coordinate="(W - o - 24*s, H)"/>
+            <pin number="133" name="VSS_3" coordinate="(W - o - 25*s, H)"/>
+            <pin number="134" name="VDD_3" coordinate="(W - o - 26*s, H)"/>
+            <pin number="135" name="PE16" coordinate="(W - o - 27*s, H)"/>
+            <pin number="136" name="PB8" coordinate="(W - o - 28*s, H)"/>
+            <pin number="137" name="PB9" coordinate="(W - o - 29*s, H)"/>
+            <pin number="138" name="PB15" coordinate="(W - o - 30*s, H)"/>
+            <pin number="139" name="PB4" coordinate="(W - o - 31*s, H)"/>
+            <pin number="140" name="PB5" coordinate="(W - o - 32*s, H)"/>
+            <pin number="141" name="PB3" coordinate="(W - o - 33*s, H)"/>
+            <pin number="142" name="PB1" coordinate="(W - o - 34*s, H)"/>
+            <pin number="143" name="PB0" coordinate="(-W + o + 1*s, H)"/>
+        </pins>
+    </side>
+
+    <!-- 左上拐角边（引脚144） -->
+    <side name="top_left_corner">
+        <direction>down</direction>
+        <start>(-W + o, H)</start>
+        <end>(-W, H - o)</end>
+        <pins>
+            <pin number="144" name="VDD_3" coordinate="(-W + o, H - o)"/>
+        </pins>
+    </side>
+</stm32f103xc_lqfp144_pinout>    
