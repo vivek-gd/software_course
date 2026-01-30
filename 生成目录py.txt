@@ -1,0 +1,47 @@
+import tika
+from tika import parser
+import re
+import PyPDF2
+from PyPDF2 import PdfWriter, PdfReader
+from PyPDF2.generic import Destination
+
+# 初始化 Tika
+tika.initVM()
+
+# 解析文档
+file_path = 'your_document.pdf'
+parsed = parser.from_file(file_path)
+
+# 获取文本内容
+text = parsed['content']
+
+# 假设目录项格式为 数字. 标题，使用正则表达式提取目录信息
+toc_pattern = r'^(\d+(\.\d+)*)\s+(.*)$'
+toc_entries = []
+for line in text.split('\n'):
+    match = re.match(toc_pattern, line)
+    if match:
+        number = match.group(1)
+        title = match.group(3)
+        toc_entries.append((number, title))
+
+# 打开原始 PDF 文件
+input_pdf = PdfReader(open(file_path, 'rb'))
+output_pdf = PdfWriter()
+
+# 复制原始 PDF 的所有页面到输出 PDF
+for page in input_pdf.pages:
+    output_pdf.add_page(page)
+
+# 创建目录结构
+for i, (number, title) in enumerate(toc_entries):
+    # 这里简单假设每个目录项对应一页，实际情况可能需要更复杂的定位逻辑
+    page_num = i
+    output_pdf.add_outline_item(f"{number} {title}", page_num)
+
+# 保存生成的带目录的 PDF 文件
+output_file = 'output_with_toc.pdf'
+with open(output_file, 'wb') as output:
+    output_pdf.write(output)
+
+print(f"带目录的 PDF 文件已生成: {output_file}")    
