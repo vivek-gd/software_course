@@ -1,0 +1,111 @@
+# File: math_patterns.txt
+# 数学模式匹配规则（中英增强版 v2.3）
+
+# ========================
+# 微积分模式 (Calculus)
+# ========================
+# 导数
+d/dx[ ]?{f(x)} => \frac{d}{dx} f(x)                   # 普通导数
+∂/∂x[ ]?{f(x,y)} => \frac{\partial}{\partial x}f(x,y) # 偏导数
+D[f(x)]_{x=a} => \left.\frac{df}{dx}\right|_{x=a}     # 求值导数
+
+# 积分
+∫_{0}^{∞} e^{-x}dx => \int_{0}^{\infty} e^{-x} dx     # 反常积分
+∭_{V} ∇·F dV => \iiint\limits_{V} \nabla \cdot F dV   # 三重积分
+
+# 极限
+lim_{h→0} [f(x+h)-f(x)]/h => \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}
+
+# ========================
+# 线性代数 (Linear Algebra)
+# ========================
+# 中文模式
+矩阵[ ]?[A] => \begin{bmatrix} A \end{bmatrix}          # 矩阵，修正为bmatrix，更符合规范
+行列式|A| => \det(A)                                  # 行列式
+特征值λ => \lambda                                    # 特征值
+
+# 英文模式
+vec{v} = [v1;v2;v3] => \mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}
+A⊗B => A \otimes B                                   # 张量积
+rank(A) = dim(col(A)) => \text{rank}(A) = \dim(\text{col}(A))
+
+# ========================
+# 概率统计 (Probability & Statistics)
+# ========================
+# 中文表达式
+X ~ N(μ,σ²) => X \sim \mathcal{N}(\mu, \sigma^2)      # 正态分布
+P(X > 1.96) = 0.025 => P(X > 1.96) = 0.025           # 概率计算
+E[X] = ∫ x f(x) dx => \mathbb{E}[X] = \int x f(x) dx
+
+# 英文表达式
+PDF(X) = dF/dx => f_X(x) = \frac{dF}{dx}             # 概率密度函数
+CLT: (X̄-μ)/(σ/√n) → N(0,1) => \frac{\bar{X}-\mu}{\sigma/\sqrt{n}} \overset{d}{\to} \mathcal{N}(0,1) # 修正为\mathcal{N}
+
+# ========================
+# 离散数学 (Discrete Mathematics)
+# ========================
+# 逻辑表达式
+∀ε>0 ∃δ>0 : |x-a|<δ ⇒ |f(x)-L|<ε => \forall \varepsilon>0\ \exists \delta>0\ (|x-a|<\delta \Rightarrow |f(x)-L|<\varepsilon)
+P ↔ Q ≡ (P→Q)∧(Q→P) => P \leftrightarrow Q \equiv (P \to Q) \land (Q \to P)
+
+# 图论
+G=(V,E), |V|=n => G = (V,E),\ |V| = n               # 图定义
+deg(v) = 3 => \deg(v) = 3                           # 顶点度
+
+# ========================
+# 数学分析 (Mathematical Analysis)
+# ========================
+# 中文表达式
+收敛于L => \lim_{n\to\infty} a_n = L                 # 数列收敛
+一致连续 ⇔ ∀ε>0 ∃δ>0 ∀x,y: |x-y|<δ ⇒ |f(x)-f(y)|<ε => \text{一致连续} \Leftrightarrow \forall \varepsilon>0\ \exists \delta>0\ \forall x,y\ (|x-y|<\delta \Rightarrow |f(x)-f(y)|<\varepsilon)
+
+# 英文表达式
+f ∈ C^∞(ℝ) => f \in C^{\infty}(\mathbb{R})           # 光滑函数
+supp(φ) ⊂ Ω => \text{supp}(\phi) \subset \Omega      # 支撑集
+
+# ========================
+# 组合数学 (Combinatorics)
+# ========================
+C(n,k) = n!/(k!(n-k)!) => \binom{n}{k} = \frac{n!}{k!(n-k)!}  # 组合数
+P(n,k) = n!/(n-k)! => P(n,k) = \frac{n!}{(n-k)!}              # 排列数
+
+# ========================
+# 矩阵论 (Matrix Theory)
+# ========================
+A = [a_{ij}]_{m×n} => A = [a_{ij}]_{m \times n}      # 矩阵表示
+svd(A) = UΣV^T => \text{SVD}(A) = U\Sigma V^\top     # 奇异值分解
+||A||_F = √(∑∑|a_ij|²) => \|A\|_F = \sqrt{\sum_{i}\sum_{j} |a_{ij}|^2} # 修正求和符号
+
+# ========================
+# 特殊符号处理
+# ========================
+# 中文标点转换
+（...） => \left(...\right)                          # 中文括号
+“...” ⇒ ``...''                                      # 中文引号
+
+# 希腊字母
+阿尔法 => \alpha                                     # 中文音译
+beta => \beta                                        # 英文直译
+
+# ========================
+# 混合表达式
+# ========================
+定理1.1 (收敛性定理): 如果∑|a_n|收敛，则∑a_n绝对收敛 => \textbf{Theorem 1.1} (Convergence Theorem): \text{If } \sum |a_n| \text{ converges, then } \sum a_n \text{ converges absolutely.}
+
+当且仅当 ∃M>0 使得∀x∈ℝ, |f(x)| ≤ M => \text{当且仅当 } \exists M>0\ \text{使得 } \forall x \in \mathbb{R},\ |f(x)| \leq M
+
+# ========================
+# 复杂结构
+# ========================
+# 分式矩阵
+[ [a/(b+c), d]; [e^{x}, 1/√2] ] => \begin{bmatrix} \frac{a}{b+c} & d \\ e^{x} & \frac{1}{\sqrt{2}} \end{bmatrix}
+
+# 多行公式
+{ x = r cosθ
+  y = r sinθ } => \begin{cases} x = r \cos\theta \\ y = r \sin\theta \end{cases}
+
+# ========================
+# 自动校正规则
+# ========================
+0 -> θ       # 自动校正0和θ的混淆
+l -> \ell    # 区分字母l和书法l

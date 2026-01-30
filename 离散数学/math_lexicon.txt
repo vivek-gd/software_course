@@ -1,0 +1,147 @@
+# File: math_lexicon.txt
+# 多语言数学术语词典 (中英对照版 v2.1)
+
+# ========================
+# 基础符号体系
+# ========================
+=> \Rightarrow       # 蕴含
+<= \Leftarrow        # 推出
+!= 
+eq                 # 不等于
+>= \geq              # 大于等于
+<= \leq              # 小于等于
+!= 
+eq                 # 不等于
+INFTY \infty         # 无穷大
+PARTIAL \partial     # 偏微分
+NABLA \nabla         # 梯度算子
+INTEGRAL \int        # 积分符号
+SUMMATION \sum       # 求和符号
+PRODUCT \prod        # 乘积符号
+INTEGRAL_LIMITS \int_{a}^{b} # 带上下限积分
+
+# ========================
+# 离散数学 (Discrete Mathematics)
+# ========================
+PROPOSITIONAL_LOGIC 命题逻辑          Propositional Logic
+PREDICATE_LOGIC 谓词逻辑              Predicate Logic
+TAUTOLGY 永真式                     Tautology
+CONTRADICTION 矛盾式                Contradiction
+SATISFIABLE 可满足式                 Satisfiable
+UNSATISFIABLE 不可满足式             Unsatisfiable
+SET 空集                           Empty Set
+POWER_SET 幂集                     Power Set
+CARTESIAN_PRODUCT 笛卡尔积           Cartesian Product
+BINARY_RELATION 二元关系             Binary Relation
+EQUIVALENCE_CLASS 等价类             Equivalence Class
+PARTITION 划分                     Partition
+HASSE_DIAGRAM 哈斯图               Hasse Diagram
+GRAPHCOLORING 图着色                Graph Coloring
+CHROMATIC_NUMBER 色数              Chromatic Number
+CONNECTED_COMPONENT 连通分量        Connected Component
+
+# ========================
+# 线性代数 (Linear Algebra)
+# ========================
+MATRIX 矩阵                        Matrix
+DETERMINANT 行列式                 Determinant
+EIGENVALUE 特征值                  Eigenvalue
+EIGENVECTOR 特征向量               Eigenvector
+ORTHOGONAL 正交                    Orthogonal
+SYMMETRIC 对称                     Symmetric
+TRANSPOSE 转置                   Transpose
+INVERSE 逆矩阵                     Inverse
+RANK 秩                            Rank
+NULL_SPACE 零空间                  Null Space
+COLUMN_SPACE 列空间                Column Space
+ROW_SPACE 行空间                   Row Space
+DIAGONAL_MATRIX 对角矩阵            Diagonal Matrix
+UPPER_TRIANGULAR 上三角矩阵         Upper Triangular
+LOWER_TRIANGULAR 下三角矩阵         Lower Triangular
+ORTHOGONAL_PROJECTION 正交投影      Orthogonal Projection
+SPECTRAL_RADIUS 谱半径             Spectral Radius
+VECTOR_SPACE 向量空间              Vector Space
+SUBSPACE 子空间                   Subspace
+SPAN 生成子空间                    Span
+LINEAR_INDEPENDENT 线性无关         Linear Independent
+LINEAR_DEPENDENT 线性相关           Linear Dependent
+
+# ========================
+# 数学分析 (Mathematical Analysis)
+# ========================
+LIMIT 极限                         Limit
+CONTINUOUS 连续                    Continuous
+DIFFERENTIABLE 可导                Differentiable
+INTEGRABLE 可积                   Integrable
+SERIES 级数                       Series
+CONVERGE 收敛                      Converge
+DIVERGE 发散                     Diverge
+UNIFORM_CONVERGENCE 一致收敛        Uniform Convergence
+POWER_SERIES 幂级数                Power Series
+TAYLOR_SERIES 泰勒级数             Taylor Series
+MACLAURIN_SERIES 麦克劳林级数       Maclaurin Series
+PARTIAL_DERIVATIVE 偏导数          Partial Derivative
+GRADIENT 梯度                     Gradient
+DIVERGENCE 散度                   Divergence
+CURL 旋度                        Curl
+LAPLACIAN 拉普拉斯算子             Laplacian
+GREENS_THEOREM 格林公式            Green's Theorem
+STOKES_THEOREM 斯托克斯定理         Stokes' Theorem
+GAUSS_THEOREM 高斯定理             Gauss's Theorem
+
+# ========================
+# 概率统计 (Probability & Statistics)
+# ========================
+PROBABILITY 概率                   Probability
+RANDOM_VARIABLE 随机变量            Random Variable
+EXPECTATION 期望                   Expectation
+VARIANCE 方差                     Variance
+STANDARD_DEVIATION 标准差           Standard Deviation
+COVARIANCE 协方差                 Covariance
+CORRELATION 相关系数               Correlation
+PROBABILITY_DISTRIBUTION 概率分布    Probability Distribution
+NORMAL_DISTRIBUTION 正态分布         Normal Distribution
+BINOMIAL_DISTRIBUTION 二项分布       Binomial Distribution
+POISSON_DISTRIBUTION 泊松分布        Poisson Distribution
+CHI_SQUARED_DISTRIBUTION 卡方分布    Chi-Squared Distribution
+STUDENT_T_DISTRIBUTION t分布         Student's T-Distribution
+HYPOTHESIS_TESTING 假设检验         Hypothesis Testing
+P_VALUE P值                       P-Value
+CONFIDENCE_INTERVAL 置信区间        Confidence Interval
+REGRESSION 分析                   Regression
+LINEAR_REGRESSION 线性回归          Linear Regression
+MULTICOLLINEARITY 多重共线性        Multicollinearity
+RESIDUAL 残差                     Residual
+COEFFICIENT 系数                  Coefficient
+
+# ========================
+# 组合数学 (Combinatorics)
+# ========================
+PERMUTATION 排列                   Permutation
+COMBINATION 组合                   Combination
+BINOMIAL_COEFFICIENT 二项式系数      Binomial Coefficient
+MULTINOMIAL_COEFFICIENT 多项式系数   Multinomial Coefficient
+PARTITION_FUNCTION 划分函数         Partition Function
+RECURRENCE_RELATION 递推关系         Recurrence Relation
+GENERATING_FUNCTION 生成函数        Generating Function
+GRAPHCOLORING 图着色               Graph Coloring
+TURÁN_THEOREM 图论Turán定理         Turán's Theorem
+STIRLING_NUMBER 斯特林数            Stirling Number
+BELLMAN_EQUATION 贝尔曼方程         Bellman Equation
+FACTORIAL 阶乘                    Factorial
+BINOMIAL_THEOREM 二项式定理         Binomial Theorem
+
+# ========================
+# 特殊符号组合
+# ========================
+LATEX_ESCAPE \{ \} $$ $$           LaTeX转义符号
+MATHTML_COMPATIBILITY MathML兼容模式 MathML Compatibility
+UNDERSCORE _                      下划线
+CARET ^                           上标
+DOT_OPERATOR ⋅                    点乘符号
+DOUBLE_DOT :                      冒号分隔符
+INTEGRAL_SYMBOL ∫                 积分符号
+SUM_SYMBOL Σ                      求和符号
+PRODUCT_SYMBOL Π                  乘积符号
+LIMIT_SYMBOL lim                  极限符号
+DERIVATIVE_SYMBOL '               导数符号

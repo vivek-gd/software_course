@@ -1,0 +1,16 @@
+ocrmypdf --output-type pdf --deskew --rotate-pages "D:\Desktop\电子书&课件\离散数学\离散数学（第五版） (耿素云、屈婉玲、张立昂) (Z-Library).pdf" "D:\Desktop\电子书&课件\离散数学\离散数学5.pdf" --tmpdir "D:\Desktop\电子书&课件\离散数学\temp" 
+
+D:\>set TEMP="D:\Desktop\电子书&课件\离散数学\temp"
+
+D:\>ocrmypdf --output-type pdf --deskew --rotate-pages "D:\Desktop\电子书&课件\离散数学\离散数学（第五版） (耿素云、屈婉玲、张立昂) (Z-Library).pdf" "D:\Desktop\电子书&课件\离散数学\离散数学5.pdf"
+
+ocrmypdf --output-type pdf --deskew --rotate-pages -l chi_sim "D:\Desktop\电子书&课件\离散数学\离散数学（第五版） (耿素云、屈婉玲、张立昂) (Z-Library).pdf" "D:\Desktop\电子书&课件\离散数学\离散数学.pdf"
+
+ocrmypdf --output-type pdf --rotate-pages -l chi_sim+eng --tesseract-config math_config.txt "D:\Desktop\电子书&课件\离散数学\离散数学（第五版） (耿素云、屈婉玲、张立昂) (Z-Library).pdf" "D:\Desktop\电子书&课件\离散数学\离散数学.pdf"
+
+ocrmypdf --output-type pdf --deskew --rotate-pages -l chi_sim+eng --tesseract-config "D:\Desktop\电子书&课件\离散数学\math_config.txt" "D:\Desktop\电子书&课件\离散数学\离散数学（第五版） (耿素云、屈婉玲、张立昂) (Z-Library).pdf" "D:\Desktop\电子书&课件\离散数学\离散数学1.pdf"
+
+
+
+
+C:\Users\48828\AppData\Local\Temp
